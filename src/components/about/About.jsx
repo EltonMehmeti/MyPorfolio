@@ -1,5 +1,6 @@
 import "./about.css";
 import Me from "../../img/me1.png";
+import Me2 from "../../img/mePng.png";
 import { SiHtml5 } from "react-icons/si";
 
 const About = () => {
@@ -8,7 +9,7 @@ const About = () => {
       <div className="a-left">
         <div className="a-card bg"></div>
         <div className="a-card">
-          <img src={Me} alt="" className="a-img" />
+          <img src={Me2} alt="" className="a-img" />
         </div>
       </div>
       <div className="a-right">
@@ -25,11 +26,12 @@ const About = () => {
             <ul>
               <li>{SiHtml5} HTML / CSS</li>
               <li> JavaScript</li>
+              <li> JAVA / Spring Boot</li>
+              <li>React Js</li>
+              <li>Node Js</li>
+              <li>Tailwind CSS</li>
               <li> PHP / MySQL</li>
               <li> WP Advanced</li>
-              <li> JAVA / JAVAFX</li>
-              <li> Angular/JS</li>
-              <li>Tailwind CSS</li>
             </ul>
           </div>
         </p>
