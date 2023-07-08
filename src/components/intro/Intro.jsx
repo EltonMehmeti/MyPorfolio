@@ -1,8 +1,7 @@
 import React from "react";
 import "./intro.css";
 import Background from "../../img/bg.jpg";
-import Cv from "../../img/EltonCV.pdf";
-import Symbol from "../../img/codeS.png";
+import Cv from "../../img/Resume-EltonMehmeti-TIPP.pdf";
 
 const Intro = () => {
   return (
@@ -36,5 +35,5 @@ const Intro = () => {
     </div>
   );
 };
-// EltonUpdate2k23
+
 export default Intro;
