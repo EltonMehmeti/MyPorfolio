@@ -24,6 +24,7 @@
   top: 50px;
   left: 50px;
   background-color: #5a3908;
+  /* background-color: #1e2528; */
 }
 
 .a-card {
@@ -36,13 +37,13 @@
   position: relative;
   overflow: hidden;
   backdrop-filter: blur(5px); /* Adjust the blur intensity as needed */
-  border: 1px solid;
 }
 
 .a-img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  filter: grayscale(100%);
 }
 
 .a-award-img {
